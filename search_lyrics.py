@@ -1,9 +1,9 @@
 import requests
 import telebot
 from telebot import types
-SEARCH_LYRICS_APIKEY = '63f47f572a4793611aef062eee7154b7'
+SEARCH_LYRICS_APIKEY = 'xxx'
 
-bot = telebot.TeleBot("667645024:AAF9pP5mYfoNotmugsioUp1zKiK99-UWQsc") 
+bot = telebot.TeleBot("xxx") 
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
